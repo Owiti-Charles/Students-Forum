@@ -1,0 +1,241 @@
+.event-primary h2 {margin-top:10px}
+
+.nopadding {
+    padding: 0 !important
+}
+time {
+    display: inline-block;
+    width: 100%;
+    color: rgb(255, 255, 255);
+
+    padding: 5px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+time.pink {
+    background-color: rgb(197, 44, 102);
+}
+time.purple {
+    background-color: rgb(165, 82, 167)
+}
+
+time.dkblue
+{
+    background-color: #336699;
+}
+
+time.blue_green { background-color: #148aa5 }
+time.blue_violet { background-color: #3714a4}
+time.brown { background-color: #964B00}
+time.crimson { background-color: #a50516}
+time.deep_pink { background-color: #fb3c8f}
+time.forest_green { background-color: #1b4f15}
+time.fuchsia { background-color: #a51497}
+time.gray { background-color: #686868}
+time.green { background-color: #3aa03a}
+time.hotpink { background-color: #ff0080}
+time.lemon { background-color: #fee233}
+time.ligh_blue { background-color: #8bbdeb}
+time.light_red { background-color: #fc6a6c}
+time.lime { background-color: #c1fd33}
+time.lime_green { background-color: #2bfd2f}
+time.magenta { background-color: #fc1cad}
+time.maroon { background-color: #7f2b14}
+time.midnight { background-color: #000066}
+time.olive { background-color: #2b4726}
+time.orange { background-color: #fd7222}
+time.orange_red { background-color: #fc331c}
+time.orange_yellow { background-color: #ffcc00}
+time.peach { background-color: #FFE5B4}
+time.pink { background-color: #fc5ab8}
+time.purple { background-color: #af31f2}
+time.red { background-color: #fc0d1b}
+time.red_orange { background-color: #d7462c }
+time.salmon { background-color: #f69e94}
+time.tan { background-color: #f2ddbf}
+time.teal { background-color: #2b8a6d}
+time.violet { background-color: #6b28ce}
+time.violet_blue { background-color: #6041fa}
+time.white { background-color: #ffffff}
+time.yellow { background-color: #feee35}
+time.yellow_green { background-color: #defd35}
+time.yellow_orange { background-color: #fec42e}
+
+.time {
+    background-color: rgb(165, 82, 167);
+}
+
+time > span {
+    display: none;
+}
+
+time > .day {
+    display: block;
+    font-size: 4em;
+    font-weight: 100;
+    line-height: 1;
+}
+
+time > .month {
+    display: block;
+    font-size: 24pt;
+    font-weight: 900;
+    line-height: 1;
+}
+.nopadding {padding:0 !important;margin:0!important;}
+.panel-primary > .panel-footer {
+    color: #fff!important ;
+    background-color: #337ab7;
+    border-color: #337ab7;
+}
+.panel-primary > .panel-footer p,.panel-primary a {color:#FFF}
+#start{
+    font-size: 16pt;
+    font-weight: 700;
+    /* line-height: 1;*/
+}
+#end{
+    font-size: 16pt;
+    font-weight: 700;
+    /*line-height: 1;
+    color: black;*/
+}
+
+
+/*Canvas styling*/
+body{
+    font-size: 14px;
+    background: #F2F4F5;
+}
+body,html,.row-offcanvas {
+    height:100%;
+}
+
+body {
+    padding-top: 50px;
+}
+
+#side{
+    width: auto;
+    float: right;
+
+}
+#left{
+    width: auto;
+    float: left;
+
+}
+#FAQ{
+
+    clear: left;
+}
+#sidebar {
+    width: inherit;
+    min-width: 220px;
+    max-width: 220px;
+    background-color:#f5f5f5;
+    float: right;
+    height:100%;
+    position:relative;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+
+#feature{
+    width: 70%;
+    float: left;
+    /* min-width: 220px;
+     max-width: 220px;*/
+
+    /*  height:100%;*/
+    position:relative;
+    overflow-y:auto;
+    overflow-x:hidden;
+}
+/*
+ * off Canvas sidebar
+ * --------------------------------------------------
+ */
+@media screen and (max-width: 768px) {
+    .row-offcanvas {
+        position: relative;
+        -webkit-transition: all 0.25s ease-out;
+        -moz-transition: all 0.25s ease-out;
+        transition: all 0.25s ease-out;
+        width:calc(100% + 220px);
+    }
+
+    .row-offcanvas-left
+    {
+        left: -220px;
+    }
+
+    .row-offcanvas-left.active {
+        left: 0;
+    }
+
+    .sidebar-offcanvas {
+        position: absolute;
+        top: 0;
+    }
+}
+/* Dropdown Button */
+.dropbtn {
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown a{
+    color: grey;
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+.dropdown a:hover{
+    color: white;
+
+}
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover {
+    color: black;
+
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
